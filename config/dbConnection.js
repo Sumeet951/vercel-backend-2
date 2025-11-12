@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const MONGO_URL=process.env.MONGO_URL || "mongodb://127.0.0.1:27017/SEM5"
+const MONGO_URL="mongodb+srv://sg297979_db_user:cyWxu2oiXQQAVhYQ@cluster0.idh4dmt.mongodb.net/"
 
 const databaseconnect=async ()=>{
     try{
