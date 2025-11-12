@@ -21,8 +21,9 @@ app.use(cookieParser());
 app.use('/user',userRoutes);
 app.use('/subscriptions',subscriptionRoutes)
 app.use(errorMiddleware);
-
-app.get('*',(req,res)=>{
-    res.send("Its working fine");
+app.get('/',(req,res)=>{
+    res.send("API is working");
 })
+
+
 export default app;
