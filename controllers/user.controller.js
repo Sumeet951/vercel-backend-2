@@ -7,6 +7,7 @@ const cookieOptions = {
   httpOnly: true,
   secure: true,
   sameSite: "None",
+  path: "/",
 };
 export const register = async (req, res, next) => {
   const { fullName, email, password } = req.body || {};
